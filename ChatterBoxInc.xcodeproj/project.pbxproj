@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76EA44F832469618EBAF8CB4 /* Pods_ChatterBoxInc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B213CAC7D0787C260DCD149 /* Pods_ChatterBoxInc.framework */; };
 		F10226C61DD2C2CC001E56CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10226C51DD2C2CC001E56CE /* AppDelegate.swift */; };
 		F10226C81DD2C2CC001E56CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10226C71DD2C2CC001E56CE /* ViewController.swift */; };
 		F10226CB1DD2C2CC001E56CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10226C91DD2C2CC001E56CE /* Main.storyboard */; };
@@ -14,6 +15,31 @@
 		F10226D01DD2C2CC001E56CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10226CE1DD2C2CC001E56CE /* LaunchScreen.storyboard */; };
 		F10226DB1DD2C2CC001E56CE /* ChatterBoxIncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10226DA1DD2C2CC001E56CE /* ChatterBoxIncTests.swift */; };
 		F10226E61DD2C2CC001E56CE /* ChatterBoxIncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10226E51DD2C2CC001E56CE /* ChatterBoxIncUITests.swift */; };
+		F10226F61DD2C7AB001E56CE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10226F31DD2C7AB001E56CE /* Message.swift */; };
+		F10226F71DD2C7AB001E56CE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10226F41DD2C7AB001E56CE /* User.swift */; };
+		F10226F81DD2C7AB001E56CE /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10226F51DD2C7AB001E56CE /* Favorite.swift */; };
+		F10227011DD2C7CB001E56CE /* ChatInputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10226FA1DD2C7CB001E56CE /* ChatInputContainerView.swift */; };
+		F10227021DD2C7CB001E56CE /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10226FB1DD2C7CB001E56CE /* ChatMessageCell.swift */; };
+		F10227031DD2C7CB001E56CE /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10226FC1DD2C7CB001E56CE /* PageCell.swift */; };
+		F10227041DD2C7CB001E56CE /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10226FD1DD2C7CB001E56CE /* FavoriteCell.swift */; };
+		F10227051DD2C7CB001E56CE /* ProfileSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10226FE1DD2C7CB001E56CE /* ProfileSettingCell.swift */; };
+		F10227061DD2C7CB001E56CE /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10226FF1DD2C7CB001E56CE /* UserCell.swift */; };
+		F10227071DD2C7CB001E56CE /* SignupContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10227001DD2C7CB001E56CE /* SignupContainerView.swift */; };
+		F10227151DD2C7E2001E56CE /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10227091DD2C7E2001E56CE /* ChatLogController.swift */; };
+		F10227161DD2C7E2001E56CE /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102270A1DD2C7E2001E56CE /* CustomTabBarController.swift */; };
+		F10227171DD2C7E2001E56CE /* FavoriteListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102270B1DD2C7E2001E56CE /* FavoriteListController.swift */; };
+		F10227181DD2C7E2001E56CE /* SignupController+handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102270C1DD2C7E2001E56CE /* SignupController+handler.swift */; };
+		F10227191DD2C7E2001E56CE /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102270D1DD2C7E2001E56CE /* LoginController.swift */; };
+		F102271A1DD2C7E2001E56CE /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102270E1DD2C7E2001E56CE /* NewMessageController.swift */; };
+		F102271B1DD2C7E2001E56CE /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102270F1DD2C7E2001E56CE /* MessageController.swift */; };
+		F102271C1DD2C7E2001E56CE /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10227101DD2C7E2001E56CE /* PageController.swift */; };
+		F102271D1DD2C7E2001E56CE /* PrivacyPolicyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10227111DD2C7E2001E56CE /* PrivacyPolicyController.swift */; };
+		F102271E1DD2C7E2001E56CE /* ProfileSettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10227121DD2C7E2001E56CE /* ProfileSettingController.swift */; };
+		F102271F1DD2C7E2001E56CE /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10227131DD2C7E2001E56CE /* SignupController.swift */; };
+		F10227201DD2C7E2001E56CE /* TermOfServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10227141DD2C7E2001E56CE /* TermOfServiceController.swift */; };
+		F10227241DD2C809001E56CE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10227221DD2C809001E56CE /* Extensions.swift */; };
+		F10227251DD2C809001E56CE /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10227231DD2C809001E56CE /* SweetAlert.swift */; };
+		F10227281DD2C8D7001E56CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F10227271DD2C8D7001E56CE /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B213CAC7D0787C260DCD149 /* Pods_ChatterBoxInc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatterBoxInc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A416BF547C7F09F9AB85AE48 /* Pods-ChatterBoxInc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatterBoxInc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatterBoxInc/Pods-ChatterBoxInc.debug.xcconfig"; sourceTree = "<group>"; };
 		F10226C21DD2C2CC001E56CE /* ChatterBoxInc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatterBoxInc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10226C51DD2C2CC001E56CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F10226C71DD2C2CC001E56CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +75,33 @@
 		F10226E11DD2C2CC001E56CE /* ChatterBoxIncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatterBoxIncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10226E51DD2C2CC001E56CE /* ChatterBoxIncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatterBoxIncUITests.swift; sourceTree = "<group>"; };
 		F10226E71DD2C2CC001E56CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10226F31DD2C7AB001E56CE /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		F10226F41DD2C7AB001E56CE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F10226F51DD2C7AB001E56CE /* Favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		F10226FA1DD2C7CB001E56CE /* ChatInputContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputContainerView.swift; sourceTree = "<group>"; };
+		F10226FB1DD2C7CB001E56CE /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		F10226FC1DD2C7CB001E56CE /* PageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		F10226FD1DD2C7CB001E56CE /* FavoriteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		F10226FE1DD2C7CB001E56CE /* ProfileSettingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSettingCell.swift; sourceTree = "<group>"; };
+		F10226FF1DD2C7CB001E56CE /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		F10227001DD2C7CB001E56CE /* SignupContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupContainerView.swift; sourceTree = "<group>"; };
+		F10227091DD2C7E2001E56CE /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		F102270A1DD2C7E2001E56CE /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		F102270B1DD2C7E2001E56CE /* FavoriteListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteListController.swift; sourceTree = "<group>"; };
+		F102270C1DD2C7E2001E56CE /* SignupController+handler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignupController+handler.swift"; sourceTree = "<group>"; };
+		F102270D1DD2C7E2001E56CE /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		F102270E1DD2C7E2001E56CE /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		F102270F1DD2C7E2001E56CE /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
+		F10227101DD2C7E2001E56CE /* PageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		F10227111DD2C7E2001E56CE /* PrivacyPolicyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyController.swift; sourceTree = "<group>"; };
+		F10227121DD2C7E2001E56CE /* ProfileSettingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSettingController.swift; sourceTree = "<group>"; };
+		F10227131DD2C7E2001E56CE /* SignupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		F10227141DD2C7E2001E56CE /* TermOfServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermOfServiceController.swift; sourceTree = "<group>"; };
+		F10227221DD2C809001E56CE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F10227231DD2C809001E56CE /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
+		F10227271DD2C8D7001E56CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F1A5295D1DDB955E00F08203 /* ChatterBoxInc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatterBoxInc.entitlements; sourceTree = "<group>"; };
+		FCF2F89D04A42004A338050A /* Pods-ChatterBoxInc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatterBoxInc.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatterBoxInc/Pods-ChatterBoxInc.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76EA44F832469618EBAF8CB4 /* Pods_ChatterBoxInc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +130,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46F727D33B42737EB8F3F50B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A416BF547C7F09F9AB85AE48 /* Pods-ChatterBoxInc.debug.xcconfig */,
+				FCF2F89D04A42004A338050A /* Pods-ChatterBoxInc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2F2020C16A960578E6FD347 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B213CAC7D0787C260DCD149 /* Pods_ChatterBoxInc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F10226B91DD2C2CC001E56CE = {
 			isa = PBXGroup;
 			children = (
+				F10227271DD2C8D7001E56CE /* GoogleService-Info.plist */,
 				F10226C41DD2C2CC001E56CE /* ChatterBoxInc */,
 				F10226D91DD2C2CC001E56CE /* ChatterBoxIncTests */,
 				F10226E41DD2C2CC001E56CE /* ChatterBoxIncUITests */,
 				F10226C31DD2C2CC001E56CE /* Products */,
+				46F727D33B42737EB8F3F50B /* Pods */,
+				E2F2020C16A960578E6FD347 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +173,11 @@
 		F10226C41DD2C2CC001E56CE /* ChatterBoxInc */ = {
 			isa = PBXGroup;
 			children = (
+				F1A5295D1DDB955E00F08203 /* ChatterBoxInc.entitlements */,
+				F10227261DD2C80E001E56CE /* Helper */,
+				F10227211DD2C7E9001E56CE /* Controller */,
+				F10226F91DD2C7B0001E56CE /* Model */,
+				F10227081DD2C7D2001E56CE /* View */,
 				F10226C51DD2C2CC001E56CE /* AppDelegate.swift */,
 				F10226C71DD2C2CC001E56CE /* ViewController.swift */,
 				F10226C91DD2C2CC001E56CE /* Main.storyboard */,
@@ -125,6 +206,58 @@
 			path = ChatterBoxIncUITests;
 			sourceTree = "<group>";
 		};
+		F10226F91DD2C7B0001E56CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F10226F31DD2C7AB001E56CE /* Message.swift */,
+				F10226F41DD2C7AB001E56CE /* User.swift */,
+				F10226F51DD2C7AB001E56CE /* Favorite.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F10227081DD2C7D2001E56CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F10226FA1DD2C7CB001E56CE /* ChatInputContainerView.swift */,
+				F10226FB1DD2C7CB001E56CE /* ChatMessageCell.swift */,
+				F10226FC1DD2C7CB001E56CE /* PageCell.swift */,
+				F10226FD1DD2C7CB001E56CE /* FavoriteCell.swift */,
+				F10226FE1DD2C7CB001E56CE /* ProfileSettingCell.swift */,
+				F10226FF1DD2C7CB001E56CE /* UserCell.swift */,
+				F10227001DD2C7CB001E56CE /* SignupContainerView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F10227211DD2C7E9001E56CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F10227091DD2C7E2001E56CE /* ChatLogController.swift */,
+				F102270A1DD2C7E2001E56CE /* CustomTabBarController.swift */,
+				F102270B1DD2C7E2001E56CE /* FavoriteListController.swift */,
+				F102270C1DD2C7E2001E56CE /* SignupController+handler.swift */,
+				F102270D1DD2C7E2001E56CE /* LoginController.swift */,
+				F102270E1DD2C7E2001E56CE /* NewMessageController.swift */,
+				F102270F1DD2C7E2001E56CE /* MessageController.swift */,
+				F10227101DD2C7E2001E56CE /* PageController.swift */,
+				F10227111DD2C7E2001E56CE /* PrivacyPolicyController.swift */,
+				F10227121DD2C7E2001E56CE /* ProfileSettingController.swift */,
+				F10227131DD2C7E2001E56CE /* SignupController.swift */,
+				F10227141DD2C7E2001E56CE /* TermOfServiceController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F10227261DD2C80E001E56CE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F10227221DD2C809001E56CE /* Extensions.swift */,
+				F10227231DD2C809001E56CE /* SweetAlert.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F10226EA1DD2C2CC001E56CE /* Build configuration list for PBXNativeTarget "ChatterBoxInc" */;
 			buildPhases = (
+				8EDB3A820D407DEDF2732F6E /* Check Pods Manifest.lock */,
 				F10226BE1DD2C2CC001E56CE /* Sources */,
 				F10226BF1DD2C2CC001E56CE /* Frameworks */,
 				F10226C01DD2C2CC001E56CE /* Resources */,
+				F21D5F754402B9ED1F3861F6 /* Embed Pods Frameworks */,
+				3FF9FC84D50C46E55F9313B9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +331,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 6YD2UA6QR3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					F10226D51DD2C2CC001E56CE = {
 						CreatedOnToolsVersion = 8.1;
@@ -237,6 +378,7 @@
 			files = (
 				F10226D01DD2C2CC001E56CE /* LaunchScreen.storyboard in Resources */,
 				F10226CD1DD2C2CC001E56CE /* Assets.xcassets in Resources */,
+				F10227281DD2C8D7001E56CE /* GoogleService-Info.plist in Resources */,
 				F10226CB1DD2C2CC001E56CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,12 +399,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FF9FC84D50C46E55F9313B9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatterBoxInc/Pods-ChatterBoxInc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EDB3A820D407DEDF2732F6E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F21D5F754402B9ED1F3861F6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatterBoxInc/Pods-ChatterBoxInc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F10226BE1DD2C2CC001E56CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10227051DD2C7CB001E56CE /* ProfileSettingCell.swift in Sources */,
+				F10226F81DD2C7AB001E56CE /* Favorite.swift in Sources */,
+				F10227011DD2C7CB001E56CE /* ChatInputContainerView.swift in Sources */,
+				F10227251DD2C809001E56CE /* SweetAlert.swift in Sources */,
+				F10226F71DD2C7AB001E56CE /* User.swift in Sources */,
+				F102271D1DD2C7E2001E56CE /* PrivacyPolicyController.swift in Sources */,
+				F102271C1DD2C7E2001E56CE /* PageController.swift in Sources */,
+				F10227171DD2C7E2001E56CE /* FavoriteListController.swift in Sources */,
+				F10226F61DD2C7AB001E56CE /* Message.swift in Sources */,
 				F10226C81DD2C2CC001E56CE /* ViewController.swift in Sources */,
+				F10227021DD2C7CB001E56CE /* ChatMessageCell.swift in Sources */,
+				F10227201DD2C7E2001E56CE /* TermOfServiceController.swift in Sources */,
+				F102271A1DD2C7E2001E56CE /* NewMessageController.swift in Sources */,
+				F102271B1DD2C7E2001E56CE /* MessageController.swift in Sources */,
+				F10227041DD2C7CB001E56CE /* FavoriteCell.swift in Sources */,
+				F10227161DD2C7E2001E56CE /* CustomTabBarController.swift in Sources */,
+				F102271E1DD2C7E2001E56CE /* ProfileSettingController.swift in Sources */,
+				F10227071DD2C7CB001E56CE /* SignupContainerView.swift in Sources */,
+				F102271F1DD2C7E2001E56CE /* SignupController.swift in Sources */,
+				F10227191DD2C7E2001E56CE /* LoginController.swift in Sources */,
+				F10227031DD2C7CB001E56CE /* PageCell.swift in Sources */,
+				F10227241DD2C809001E56CE /* Extensions.swift in Sources */,
+				F10227181DD2C7E2001E56CE /* SignupController+handler.swift in Sources */,
+				F10227061DD2C7CB001E56CE /* UserCell.swift in Sources */,
+				F10227151DD2C7E2001E56CE /* ChatLogController.swift in Sources */,
 				F10226C61DD2C2CC001E56CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,8 +625,10 @@
 		};
 		F10226EB1DD2C2CC001E56CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A416BF547C7F09F9AB85AE48 /* Pods-ChatterBoxInc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChatterBoxInc/ChatterBoxInc.entitlements;
 				DEVELOPMENT_TEAM = 6YD2UA6QR3;
 				INFOPLIST_FILE = ChatterBoxInc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -424,8 +640,10 @@
 		};
 		F10226EC1DD2C2CC001E56CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF2F89D04A42004A338050A /* Pods-ChatterBoxInc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ChatterBoxInc/ChatterBoxInc.entitlements;
 				DEVELOPMENT_TEAM = 6YD2UA6QR3;
 				INFOPLIST_FILE = ChatterBoxInc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -512,6 +730,7 @@
 				F10226EC1DD2C2CC001E56CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F10226ED1DD2C2CC001E56CE /* Build configuration list for PBXNativeTarget "ChatterBoxIncTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +739,7 @@
 				F10226EF1DD2C2CC001E56CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F10226F01DD2C2CC001E56CE /* Build configuration list for PBXNativeTarget "ChatterBoxIncUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +748,7 @@
 				F10226F21DD2C2CC001E56CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
