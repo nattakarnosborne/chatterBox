@@ -19,20 +19,40 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-ChatterBoxIncTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ChatterBoxIncUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>23BA9083ED0D2392A167A8AFA04427FA</key>
+		<key>09166E0CAAAE21B2C6BEB356BAA3D2D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7D04535608058A2FABC0D16935868FB9</key>
+		<key>107A9565F9DF88517DFD3E28C05B2B96</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D742F0791C5AE03AF51D71D1F3A17EF5</key>
+		<key>1DDFB8B2AD2A927CABAF37CD7A161050</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A4DCE54DB23064D6D67AFA1C63723BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C052BEBFBD0AB5218CC64BA3450F6547</key>
 		<dict>
 			<key>primary</key>
 			<true/>
